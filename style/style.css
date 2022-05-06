@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    border: 5px none rgb(7, 7, 53);
+    opacity: 0.6;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+    position: sticky;
+  
+  }
+  a {
+    padding: 8px;
+
+  }
+  li {
+    display: inline;
+  }
+  .active {
+    background-color: #c678d5;
+  }
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
