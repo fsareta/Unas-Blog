@@ -1,0 +1,42 @@
+.container {  display: grid;
+    grid-template-columns: 0fr 2fr 0fr;
+    grid-template-rows: 0fr 1.5fr 0fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". header ."
+      ". main ."
+      ". . .";
+  }
+  
+  .main { grid-area: main; }
+
+  
+  .nav { grid-area: nav; }
+  
+  a {
+    text-decoration: none;
+}
+
+p {
+    border: 1px solid rgb(84, 78, 78);
+    background-color: bisque;
+    display: block;
+    width: 680px;
+    height: 160px;
+    border-radius: 10px;
+    margin: auto;
+ 
+    
+    
+}
+
+.main {
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    font-size: 100px;
+}
+
+  

@@ -2,39 +2,103 @@
 <html>
 <div>
 
-    <head >
+    <head>
         <title>Una's Blog</title>
+        <link href="style/grid.css" rel="stylesheet">
         <link href="style/style.css" rel="stylesheet">
+        <style>
+           
+            img {
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                width: 270px;
+                height: 250px;
+            }
+
+          
+
+            img:hover {
+                box-shadow: 0 0 4px 4px rgba(96, 53, 2, 0.5);
+            } 
+           
+            a {
+                text-decoration: none;
+            }
+
+            p {
+                border: 1px solid rgb(84, 78, 78);
+                background-color: bisque;
+                display: block;
+                width: 300px;
+                height: 100px;
+                border-radius: 10px;
+                margin:auto;
+                
+                
+            }
+
+            .main {
+                text-align: center;
+                margin: 20px;
+            }
+            h1{
+                font-size: 150px;
+                padding: none;
+                margin: 0;
+            }
+           
+            
+            
+        </style>
     </head>
 </div>
 
 <body>
     <div class="header">
         <h1>Una's Blog</h1>
-        <h2>Tech Interests and Inspiration</h2>
-    </div>
-
-    <nav>
-        <div id="nav">
+        <h2 style=font-size:50px;>Tech Interests and Inspiration</h2>
+        <div class="nav">
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="Blog1.html">The Evolution of Technology in Education</a></li>
-                <li><a href="Blog2.html">Proloquo2Go</a></li>
-                <li><a href="Blog3.html">Pacific Hackathon</a></li>
-                <li><a href="Blog4.html">Android vs. iOS App Development</a></li>
-                <li><a href="Blog5.html">???</a></li>
-                <li><a href="Blog6.html">blog6</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Aboutme.html">About Me</a></li>
+                <li><a href="https://fsareta.github.io/Final-Portfolio/">Portfolio</a></li>
+                <li><a href="https://www.linkedin.com/in/faaiuga-areta-1536131bb/" target="_blank">LinkedIn</a></li>
+
             </ul>
         </div>
-        <div>
-            <h3>About Me:</h3>
+    </div>
+    <div class="container">
+
+        <div class="main">
+            <div class="blog1"><a href="Blog1.html"><h2 class="blogtitle">EdTech</h2><img src="images/blog1.jpg" alt="drawing of a desk">
+                    <p>Technology in schools keep improving. Read more to find out how tech helps students!</p>
+                </a></div>
+            <div class="blog2"><a href="Blog2.html"><h2 class="blogtitle">Proloquo2Go</h2><img src="images/blog2.jpg" alt="desk of school supplies">
+                    <p>
+                        What is Proloquo2Go? Read more to find out!
+                    </p>
+                </a></div>
+            <div class="blog3"><a href="Blog3.html"><h2 class="blogtitle">Pacific Hackathon</h2><img src="images/blog3.jpg" alt="study desk"><p>"Hackathon" is 
+                an interesting word. Read more
+                        about this programming event for Pacific Islanders
+                    </p></a></div>
+            <div class="blog4"><a href="Blog4.html"><h2 class="blogtitle">Android vs. iOS</h2><img src="images/blog4.jpg"
+                        alt="person on laptop">
+                    <p> Are you an iOS or Android fan? Read more about the differences between the two.</p>
+                </a></div>
+            <div class="blog5"><a href="Blog5.html"><h2 class="blogtitle">Programming Games</h2><img src="images/blog5.jpg" alt="phone charging">
+                    <p>Learning can be fun! Read more
+                        to find out cool programming games out there!
+                    </p>
+                </a></div>
+            <div class="blog6"><a href="Blog6.html"><h2 class="blogtitle">Machine Learning</h2><img src="images/blog6.jpg" alt="pink laptop">
+                    <p>
+                        Artificial Intelligence, a very interesting topic. Read more to learn about Machine Learning, a subset of AI.
+                    </p>
+                </a></div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </nav>
+    </div>
 
 
 </body>

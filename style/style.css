@@ -1,36 +1,58 @@
-*{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&family=The+Girl+Next+Door&display=swap');
+
+h1{
+  font-family:'The Girl Next Door', cursive;
+  color:#402020;
+}
+h2{
+  font-family: 'Sniglet', cursive;
+  text-shadow: 2px 2px #bd9d51;
+  color:rgb(95, 60, 1);
+}
+.blogtitle:hover {
+  box-shadow: 0 0 4px 4px rgba(96, 53, 2, 0.5);
+} 
+
+a:hover{
+  color:#402020;
+}
+p{
+  font-family: 'Sniglet', cursive;
+  line-height: 1.6;
 }
 .header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
-    border: 5px none rgb(7, 7, 53);
-    opacity: 0.6;
-  }
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: .5px;
+  border: 2px none rgb(7, 7, 53);
+  opacity: 0.8;
+  margin: 2px;
+}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;    
-    background-color: #dddddd;
-    position: fixed;
-    top: 0;
-    position: sticky;
+.nav li {
+  display: inline;
+  padding: 20px 20px;
+  list-style-type: none;
+  font-family: 'Sniglet', cursive;
+  font-size: 22px;
+ 
+
+}
+
+.nav {
+  position: relative;
+  top: 0;
+  border: 2px solid #878181;
+  background-color: #d6a059;
+  padding: 8px;
+  opacity: 1;
   
-  }
-  a {
-    padding: 8px;
+ 
+}
 
-  }
-  li {
-    display: inline;
-  }
-  .active {
-    background-color: #c678d5;
-  }
-body{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
+
+body {
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
